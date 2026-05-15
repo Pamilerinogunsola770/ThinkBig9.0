@@ -237,9 +237,9 @@ function updateCountdown() {
   const secs = Math.floor((diff / 1000) % 60);
   countdownDiv.innerHTML = `
     <span>${days}<span class="countdown-label">Days</span></span>
-    <span>${hours}<span class="countdown-label">Hours</span></span>
-    <span>${mins}<span class="countdown-label">Minutes</span></span>
-    <span>${secs}<span class="countdown-label">Seconds</span></span>
+    <span>${hours}<span class="countdown-label">Hrs</span></span>
+    <span>${mins}<span class="countdown-label">Mins</span></span>
+    <span>${secs}<span class="countdown-label">Secs</span></span>
   `;
 }
 
