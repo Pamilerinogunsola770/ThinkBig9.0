@@ -178,7 +178,7 @@ const quotes = [
 ];
 
 // --- CONFIG ---
-const EVENT_DATE = new Date('2026-05-15T00:00:00');
+const EVENT_DATE = new Date('2026-05-23T00:00:00');
 const EVENT_LINK = window.location.href;
 const QUOTES_COUNT = 150;
 
